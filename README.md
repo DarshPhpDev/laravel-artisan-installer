@@ -11,8 +11,8 @@ A Laravel package that provides an interactive command-line installer for easy a
 ## ✅ Features
 
 - 🖥️ Interactive command-line interface
-- ⚙️ Environment configuration setup 
-- 🗄️ Database configuration wizard
+- ⚙️ Environment configuration setup (creates .env file if it doesn't exist)
+- 🗄️ Database configuration wizard (creates the database if it doesn't exist)
 - 🔄 Automated migration handling
 - 📊 Progress indicators for each installation step
 - 🎛️ Configurable default values
