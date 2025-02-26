@@ -1,4 +1,10 @@
+<p align="center"><img src="/art/socialcard.png" alt="Laravel Artisan Installer"></p>
+
 # 🚀 Laravel Artisan Installer
+
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/darshphpdev/laravel-artisan-installer?style=flat-square)](https://packagist.org/packages/darshphpdev/laravel-artisan-installer)
+[![Total Downloads](https://img.shields.io/packagist/dt/darshphpdev/laravel-artisan-installer?style=flat-square)](https://packagist.org/packages/darshphpdev/laravel-artisan-installer)
+[![License](https://img.shields.io/badge/license-MIT-brightgreen)](LICENSE)
 
 A Laravel package that provides an interactive command-line installer for easy application setup. This package helps streamline the initial configuration process of Laravel applications through an intuitive artisan command. ✨
 
