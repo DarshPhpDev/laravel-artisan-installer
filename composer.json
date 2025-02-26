@@ -1,0 +1,32 @@
+{
+    "name": "darshphpdev/laravel-artisan-installer",
+    "description": "A Laravel Artisan-based installer for easy application setup.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "DarshPhpDev\\LaravelArtisanInstaller\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DarshPhpDev\\LaravelArtisanInstaller\\InstallerServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Mustafa Ahmed",
+            "email": "mustafa.softcode@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^8.33",
+        "phpunit/phpunit": "^10.0"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    }
+}
