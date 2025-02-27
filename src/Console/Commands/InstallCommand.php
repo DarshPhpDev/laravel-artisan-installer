@@ -134,19 +134,19 @@ class InstallCommand extends Command {
 
             // Task 4: Ask for database name
             $this->newLine();
-            $dbName = $this->ask('   📁 Database Name');
+            $dbName = $this->ask('   📁 Database Name', config('installer.defaults.db_database'));
             $progressBar->setMessage('Configuring database user...');
             $progressBar->advance();
 
             // Task 5: Ask for database user
             $this->newLine();
-            $dbUser = $this->ask('   👤 Database User');
+            $dbUser = $this->ask('   👤 Database User', config('installer.defaults.db_username'));
             $progressBar->setMessage('Setting database password...');
             $progressBar->advance();
 
             // Task 6: Ask for database password
             $this->newLine();
-            $dbPassword = $this->secret('   🔑 Database Password');
+            $dbPassword = $this->secret('   🔑 Database Password',  config('installer.defaults.db_password'));
             $progressBar->advance();
 
             $progressBar->finish();
